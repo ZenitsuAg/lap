@@ -5,7 +5,7 @@ const Header = () => {
         <nav className="border-b shadow-emerald-800 flex justify-between p-3 px-3.5 max-sm:justify-center shadow fixed w-full backdrop-blur-lg">
             <div>
                 <a href="#home" className="flex gap-1 justify-center">
-                    <img src={Agrod} alt="lol" className="w-20" />
+                    {/* <img src={Agrod} alt="lol" className="w-20" /> */}
                 </a>
             </div>
             <div className="flex gap-4 ">
