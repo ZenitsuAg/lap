@@ -13,15 +13,15 @@ function App() {
 
             <div
                 id="home"
-                className="main-content min-h-screen flex flex-col justify-center items-center text-center"
+                className="main-content min-h-screen flex flex-col justify-center items-center text-center bg-linear-0 from-0% to-emerald-500"
             >
                 <div className="group max-sm:px-4">
-                    {/* <img src={Agrod} alt="lol" className="w-xl max-sm:w-md" /> */}
+                    <img src={Agrod} alt="lol" className="w-xl max-sm:w-md" />
                     <h1 className="text-4xl md:text-6xl font-extrabold group-hover:text-emerald-700">
                         Hedera X{" "}
-                        {/* <span className="text-emerald-700 group-hover:text-black">
+                        <span className="text-emerald-700 group-hover:text-black">
                             AgroD
-                        </span> */}
+                        </span>
                     </h1>
                 </div>
 
@@ -41,7 +41,7 @@ function App() {
                 </Form>
             </div>
 
-            <div className="min-h-screen w-3xl mx-auto">
+            <div className="min-h-screen max-lg:w-auto w-3xl mx-auto text-center px-4">
                 <h1 className="font-medium text-4xl text-center">Certifcate exam</h1>
 
                 <p>Search for exam questions here</p>

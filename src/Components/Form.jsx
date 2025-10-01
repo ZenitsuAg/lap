@@ -2,7 +2,7 @@ import { useState } from "react";
 import ques from "../../questions.json";
 
 const Form = () => {
-    const [moduleNo, setmoduleNo] = useState("module1");
+    const [moduleNo, setmoduleNo] = useState("module3");
     const [currentIndex, setCurrentIndex] = useState(0);
     const [demoJson, setDemoJson] = useState(ques);
 
@@ -43,12 +43,12 @@ const Form = () => {
     return (
         <form
             action="#"
-            className="shadow-lg border border-slate-50 rounded-lg md:w-[576px] p-8 flex flex-col justify-between gap-4 bg-white min-h-96"
+            className="shadow-lg border border-slate-50 rounded-lg w-[372px] max-sm:min-h-[500px] overflow-scroll md:w-[576px] p-8 flex flex-col justify-between gap-4 bg-white min-h-96"
         >
             <div>
                 <div className="w-full bg-gray-200 rounded-full h-2.5 ">
                     <div
-                        className="bg-emerald-700 h-2.5 rounded-full"
+                        className="bg-emerald-700 h-2.5 rounded-full transition-all duration-150"
                         style={{
                             width: `${
                                 ((currentIndex + 1) /
@@ -102,7 +102,7 @@ const Form = () => {
                     </div>
                     <div className="flex gap-1">
                         <h2 className="italic text-emerald-700 font-medium">Answer:</h2>
-                        <p>
+                        <p className="break-all">
                             {currentQuestion
                                 ? currentQuestion.Answer
                                 : "No answer available"}
