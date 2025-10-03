@@ -1,19 +1,17 @@
-import { useState } from "react";
-import Agrod from '../images/AgroD.svg'
+import Agrod from "../images/AgroD.svg";
 import Form from "./Components/Form";
 import Header from "./Components/Header";
 import ExamForm from "./Components/ExamForm";
 
 function App() {
-    const [count, setCount] = useState(0);
 
     return (
-        <div className="min-h-screen font-epunda bg-slate-100">
+        <div className="min-h-screen font-epunda bg-slate-100 relative">
             <Header />
 
             <div
                 id="home"
-                className="main-content min-h-screen flex flex-col justify-center items-center text-center bg-linear-0 from-0% to-emerald-500"
+                className="main-content min-h-screen flex flex-col justify-center items-center text-center bg-radial from-emerald-400 via-emerald-500 to-emerald-700"
             >
                 <div className="group max-sm:px-4">
                     <img src={Agrod} alt="lol" className="w-xl max-sm:w-md" />
@@ -31,18 +29,18 @@ function App() {
                 </p>
             </div>
 
-
             <div className="min-h-screen px-4 flex flex-col justify-center items-center max-sm:px-3">
                 <h1 className="text-3xl font-bold underline decoration-double decoration-emerald-700 mb-5 max-sm:text-center ">
                     Module solutions and answer
                 </h1>
-                <Form>
 
-                </Form>
+                <Form />
             </div>
 
             <div className="min-h-screen max-lg:w-auto w-3xl mx-auto text-center px-4">
-                <h1 className="font-medium text-4xl text-center">Certifcate exam</h1>
+                <h1 className="font-medium text-4xl text-center">
+                    Certifcate exam
+                </h1>
 
                 <p>Search for exam questions here</p>
 
