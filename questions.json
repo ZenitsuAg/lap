@@ -1,6 +1,49 @@
 {
-    "module1": [],
-    "module2": [],
+    "module1": [
+        {
+            "Question": "Which of these characteristics describes Hedera today?",
+            "Answer": "Public Permissioned"
+        },
+        {
+            "Question": "Please choose all qualities of Hedera",
+            "Answer": "Not ABD"
+        },
+        {
+            "Question": "Which of these is not included as an area of responsibility of the Hedera Governing Council?",
+            "Answer": "D - Encouraging forking of the state"
+        },
+        {
+            "Question": "Is Hedera a blockchain?",
+            "Answer": "B - No"
+        },
+        {
+            "Question": "Please choose ALL which are NOT a feature of web2 software development.",
+            "Answer": "BD ie B - Trust D - Decentralization"
+        },
+        {
+            "Question": "Which phase of network growth includes permissionless nodes?",
+            "Answer": "3"
+        },
+        {
+            "Question": "Which of these characteristics describes the future state of node operation on the Hedera network?",
+            "Answer": "C - Public Permissionless"
+        },
+        {
+            "Question": "Which is the main objective of the Hedera Governing Council?",
+            "Answer": "A - Governance of the Hedera protocol"
+        },
+        {
+            "Question": "Are blockchains a form of distributed ledger technology?",
+            "Answer": "A - Yes"
+        }
+
+    ],
+    "module2": [
+        {
+            "Question": "",
+            "Answer" : ""
+        }
+    ],
     "module3": [
         {
             "Question": "What is the utility of HBAR?",
