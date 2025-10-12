@@ -1,5 +1,5 @@
 {
-    "module1": [
+    "Exam Questions": [
         {
             "Question": "Which of these characteristics describes Hedera today?",
             "Answer": "Public Permissioned"
@@ -35,10 +35,7 @@
         {
             "Question": "Are blockchains a form of distributed ledger technology?",
             "Answer": "A - Yes"
-        }
-
-    ],
-    "module2": [
+        },
         {
             "Question": "Which type of network is where applications are run in production with real transactions and associated costs",
             "Answer": "C - Mainnet"
@@ -48,7 +45,7 @@
             "Answer": "B - Previewnet"
         },
         {
-            "Question": "This node enables analytical insight into an application’s state / transactions on Hedera",
+            "Question": "This node enables analytical insight into an application's state / transactions on Hedera",
             "Answer": "B - Mirror"
         },
         {
@@ -82,9 +79,7 @@
         {
             "Question": "The Hedera Smart Contract Service can be used to build auctions and bridges.",
             "Answer": "True"
-        }
-    ],
-    "module3": [
+        },
         {
             "Question": "What is the utility of HBAR?",
             "Answer": "All of the above"
@@ -164,9 +159,7 @@
         {
             "Question": "Please choose all types of Hedera Improvement Proposals (HIPs) listed.",
             "Answer": "ABE ie (A - Informational, B - Standards Track, E - Process)"
-        }
-    ],
-    "module4": [
+        },
         {
             "Question": "The testnet allows creation of only ED25519 accounts.",
             "Answer": "False"
@@ -230,9 +223,7 @@
         {
             "Question": "In the context of granting an allowance for HBAR transfers when using the correct method, why is the `ownerAccountId` argument necessary?",
             "Answer": "B - It identifies the owner account ID that is authorizing the allowance"
-        }
-    ],
-    "module5": [
+        },
         {
             "Question": "When working on your local network you create and submit transactions and queries to your local consensus node.",
             "Answer": "True"
@@ -248,9 +239,7 @@
         {
             "Question": "The client operator is provided by you by the local node and will pay for the fees associated with each transaction/query.",
             "Answer": "True"
-        }
-    ],
-    "module6": [
+        },
         {
             "Question": "Choose the correct class used to create a topic in the Hedera Consensus Service (HCS).",
             "Answer": "D - TopicCreateTransaction"
@@ -278,9 +267,7 @@
         {
             "Question": "Which method is used to set the time to start subscribing to a topic's messages in Hedera Hashgraph?",
             "Answer": "A - setStartTime()"
-        }
-    ],
-    "module7": [
+        },
         {
             "Question": "Please select all the methods required when creating a token using the Hedera Token Service.",
             "Answer": "BDE"
@@ -364,9 +351,7 @@
         {
             "Question": "What is the significance of serial numbers in the context of NFTs?",
             "Answer": "C - They differentiate individual NFTs within the same token ID"
-        }
-    ],
-    "module8": [
+        },
         {
             "Question": "Which is a defining characteristic of decentralized applications (dApps)?",
             "Answer": "C - dApps operate on a blockchain or P2P network."
@@ -406,9 +391,7 @@
         {
             "Question": "You can check the message was submitted to the network by visitng https://hashscan.io/testnet/dashboard and searching by topicID.",
             "Answer": "True"
-        }
-    ],
-    "module9": [
+        },
         {
             "Question": "The Hedera Smart Contract Services uses the Solidity Smart Contract Language. True or False",
             "Answer": "True"
@@ -464,9 +447,7 @@
         {
             "Question": "After calling .getRecord() on the executed createTokenTx, what do you call to get the result returned by calling the createNFT smart contract function?",
             "Answer": "C - contractFunctionResult.getAddress(0)"
-        }
-    ],
-    "module10": [
+        },
         {
             "Question": "Which of the following statements about Hashio and its purpose are true? Select all that apply.",
             "Answer": "C & D"
@@ -490,9 +471,7 @@
         {
             "Question": "To connect to Hedera Testnet you first need to manually add the network to MetaMask.",
             "Answer": "True"
-        }
-    ],
-    "module11": [
+        },
         {
             "Question": "What library is used to help create/interact with EVM transactions on MetaMask?",
             "Answer": "C - Ethers.js"

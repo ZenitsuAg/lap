@@ -37,12 +37,12 @@ function App() {
                 <Form />
             </div>
 
-            <div className="min-h-screen max-lg:w-auto w-3xl mx-auto text-center px-4">
+            <div className="min-h-screen max-lg:w-auto w-3xl mx-auto text-center px-4 py-3">
                 <h1 className="font-medium text-4xl text-center">
-                    Certifcate exam
+                    Certifcate exam questions
                 </h1>
 
-                <p>Search for exam questions here</p>
+                <p>Search for exam questions or go through all available questions here</p>
 
                 <ExamForm />
             </div>
