@@ -503,6 +503,98 @@
         {
             "Question": "Ethers.js is a Javascript library for Ethereum development. True or False",
             "Answer": "True"
-        }
+        },
+        {
+            "Question": "The Hedera Smart Contract Service can be used to build DeFi and oracles",
+            "Answer": "True"
+        },
+        {
+            "Question": "Please select all which are NOT use cases of the Hedera Consensus Service.",
+            "Answer": "De-duplication"
+        },
+        {
+            "Question": "HTS is an acronym for ______________",
+            "Answer": "Hedera Token Service"
+        },
+        {
+            "Question": "This network processes dApp transactions without real costs.",
+            "Answer": "Testnet"
+        },
+        {
+            "Question": "Please select ALL of those that are NOT part of the Hedera Services",
+            "Answer": "Hedera Token Contract Service"
+        },
+        {
+            "Question": "This class is used to execute a smart contract function (it will change state)",
+            "Answer": "ContractExecuteTransaction()"
+        },
+        {
+            "Question": "Bytecode is a human-readable code used to help develop smart contracts",
+            "Answer": "False"
+        },
+        {
+            "Question": "The Hedera Smart Contract Services uses _________ for Smart Contracts.",
+            "Answer": "Solidity"
+        },
+        {
+            "Question": "Create a smart contract instance on the Hedera network with this class",
+            "Answer": "ContractCreateTransaction()"
+        },
+        {
+            "Question": "The purpose of using the `executeWithSigner` method in Hashconnect is to invoke the wallet and ask the user to sign the transaction.",
+            "Answer": "True"
+        },
+        {
+            "Question": "Which is NOT a benefit to having a distributed application?",
+            "Answer": "Allows for easier integration of third-party plugins and extensions into dApps."
+        },
+        {
+            "Question": "Which of these is a key feature of web3 software development?",
+            "Answer": "Decentralization"
+        },
+        {
+            "Question": "The ______ and ________ are part of the Hedera Transaction fee.",
+            "Answer": "Service Fee & Network Fee"
+        },
+        {
+            "Question": "This method of confirmation exposes information in the least detail.",
+            "Answer": "Receipts"
+        },
+        {
+            "Question": "Please choose ALL correct answers.",
+            "Answer": "Transaction history is immutable & State is mutable"
+        },
+        {
+            "Question": "Queries are generally subject to fees.",
+            "Answer": "True"
+        },
+        {
+            "Question": "The scheduleCreate method requires a memo and payerAccountIdD",
+            "Answer": "True"
+        },
+        {
+            "Question": "Fees on Hedera are based on the value of the euro.",
+            "Answer": "False"
+        },
+        {
+            "Question": "It is important to target only one node for submitting transactions.",
+            "Answer": "False"
+        },
+        {
+            "Question": "The ABI does not contain information on callable smart contract functions.",
+            "Answer": "False"
+        },
+        {
+            "Question": "In terms of setting the initial supply, which of these actions are NOT taken when creating an NFT?",
+            "Answer": "Set the initial supply to the Treasury Account. & Set the initial supply to the same value as the maximum supply."
+        },
+        {
+            "Question": "The treasury account ID is set",
+            "Answer": "To receive the initial supply or newly minted NFTs"
+        },
+        {
+            "Question": "When creating a token, it will default to creating a non-fungible token.",
+            "Answer": "False"
+        }        
     ]
 }
